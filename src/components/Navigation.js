@@ -20,7 +20,7 @@ const Navigation = () => {
             >
                 Crypto
             </NavLink>
-            <NavLink
+            {/* <NavLink
                 to='/trending'
                 className={({ isActive }) => {
                     return `w-full text-base text-center font-nunito m-2.5 sm:m-2.5 md:text-base
@@ -33,8 +33,8 @@ const Navigation = () => {
                   }}
             >
                 Trending
-            </NavLink>
-            <NavLink
+            </NavLink> */}
+            {/* <NavLink
                 to='/saved'
                 className={({ isActive }) => {
                     return `w-full text-base text-center font-nunito m-2.5 sm:m-2.5 md:text-base
@@ -47,7 +47,7 @@ const Navigation = () => {
                   }}
             >
                 Saved
-            </NavLink>
+            </NavLink> */}
         </nav>
     )
 }
