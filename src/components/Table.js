@@ -166,7 +166,7 @@ const Table = () => {
       </div>}
       </div>
       <div className="flex md:flex-row flex-col items-center justify-between  mt-4 capitalize h-[2rem] ">
-        <span>
+        {/* <span>
           Project Created by{" "}
           <a
             className="text-cyan"
@@ -176,7 +176,7 @@ const Table = () => {
           >
             sami uddin
           </a>
-        </span>
+        </span> */}
         <Pagination />
       </div>
     </>

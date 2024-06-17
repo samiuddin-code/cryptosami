@@ -268,7 +268,7 @@ const CryptoDetails = () => {
                 <h3 className="text-white py-1"><span className="text-gray-100 capitalize mr-1">CoinGecko Score : </span>{data.coingecko_score}</h3>
               </div>
             </div>
-            <div className="absolute bottom-4 right-4 flex items-center md:bottom-8 sm:right-8 md:flex-row">
+            {/* <div className="absolute bottom-4 right-4 flex items-center md:bottom-8 sm:right-8 md:flex-row">
             {data.links.repos_url.github[0] && (
                 <a
                   className="text-lg px-1 md:py-0 py-1"
@@ -383,7 +383,7 @@ const CryptoDetails = () => {
                   </svg>
                 </a>
               )}
-            </div>
+            </div> */}
           </div>
         ) : (
             <div
